@@ -1,0 +1,206 @@
+{
+  "trades": [
+    {
+      "code": "0000",
+      "name_de": "Baustelleneinrichtung",
+      "name_en": "Construction Site Setup",
+      "positions": [
+        {
+          "position_number": "0001",
+          "short_name_de": "Material und Werkzeug anliefern",
+          "short_name_en": "Deliver materials and tools",
+          "unit": "pauschal",
+          "description_de": "Transport von Materialien und Werkzeug zur Baustelle",
+          "description_en": "Transport of materials and tools to the construction site",
+          "hero": false
+        },
+        {
+          "position_number": "0005",
+          "short_name_de": "Anfahrt zur Baustelle",
+          "short_name_en": "Travel to the site",
+          "unit": "km",
+          "description_de": "Anfahrtskosten zur Baustelle",
+          "description_en": "Travel costs to the construction site",
+          "hero": false
+        }
+      ]
+    },
+    {
+      "code": "0300",
+      "name_de": "Gerüstbau",
+      "name_en": "Scaffolding",
+      "positions": [
+        {
+          "position_number": "0301",
+          "short_name_de": "Gerüst aufstellen",
+          "short_name_en": "Erect scaffolding",
+          "unit": "m²",
+          "description_de": "Aufstellen eines Arbeitsgerüsts für schwer zugängliche Bereiche",
+          "description_en": "Erect a work scaffolding for difficult to access areas",
+          "hero": true
+        },
+        {
+          "position_number": "0302",
+          "short_name_de": "Gerüst abbauen",
+          "short_name_en": "Dismantle scaffolding",
+          "unit": "m²",
+          "description_de": "Abbau des Arbeitsgerüsts",
+          "description_en": "Dismantle the work scaffolding",
+          "hero": false
+        }
+      ]
+    },
+    {
+      "code": "1000",
+      "name_de": "Erdarbeiten",
+      "name_en": "Earthworks",
+      "positions": [
+        {
+          "position_number": "1000",
+          "short_name_de": "Baugrube ausheben",
+          "short_name_en": "Excavate building pit",
+          "unit": "m³",
+          "description_de": "Aushub der Baugrube mit Bagger",
+          "description_en": "Excavation of building pit with excavator",
+          "hero": true
+        },
+        {
+          "position_number": "1005",
+          "short_name_de": "Erdarbeiten Stunde",
+          "short_name_en": "Labour: earthworks hour",
+          "unit": "h",
+          "description_de": "Stundenlohn für Erdarbeiten",
+          "description_en": "Hourly rate for earthwork labour",
+          "hero": false
+        }
+      ]
+    },
+    {
+      "code": "4000",
+      "name_de": "Sanitär",
+      "name_en": "Plumbing",
+      "positions": [
+        {
+          "position_number": "4001",
+          "short_name_de": "Wasserleitung reparieren",
+          "short_name_en": "Repair water pipe",
+          "unit": "pauschal",
+          "description_de": "Reparatur einer defekten Wasserleitung",
+          "description_en": "Repair of a defective water pipe",
+          "hero": true
+        },
+        {
+          "position_number": "4002",
+          "short_name_de": "Wasserhahn installieren",
+          "short_name_en": "Install faucet",
+          "unit": "Stk.",
+          "description_de": "Installation eines neuen Wasserhahns",
+          "description_en": "Installation of a new faucet",
+          "hero": false
+        },
+        {
+          "position_number": "4010",
+          "short_name_de": "Toilette installieren",
+          "short_name_en": "Install toilet",
+          "unit": "Stk.",
+          "description_de": "Installation einer neuen Toilette inkl. Anschluss",
+          "description_en": "Installation of new toilet including connection",
+          "hero": true
+        }
+      ]
+    },
+    {
+      "code": "5000",
+      "name_de": "Elektroarbeiten",
+      "name_en": "Electrical Work",
+      "positions": [
+        {
+          "position_number": "5001",
+          "short_name_de": "Steckdose installieren",
+          "short_name_en": "Install power outlet",
+          "unit": "Stk.",
+          "description_de": "Installation einer neuen Steckdose",
+          "description_en": "Installation of a new power outlet",
+          "hero": false
+        },
+        {
+          "position_number": "5002",
+          "short_name_de": "Lichtschalter installieren",
+          "short_name_en": "Install light switch",
+          "unit": "Stk.",
+          "description_de": "Installation eines neuen Lichtschalters",
+          "description_en": "Installation of a new light switch",
+          "hero": false
+        }
+      ]
+    },
+    {
+      "code": "8500",
+      "name_de": "Malerarbeiten",
+      "name_en": "Painting",
+      "positions": [
+        {
+          "position_number": "8501",
+          "short_name_de": "Innenanstrich durchführen",
+          "short_name_en": "Carry out interior painting",
+          "unit": "m²",
+          "description_de": "Streichen von Innenwänden mit Dispersionsfarbe",
+          "description_en": "Painting interior walls with emulsion paint",
+          "hero": true
+        },
+        {
+          "position_number": "8502",
+          "short_name_de": "Außenanstrich durchführen",
+          "short_name_en": "Carry out exterior painting",
+          "unit": "m²",
+          "description_de": "Streichen von Außenwänden mit Fassadenfarbe",
+          "description_en": "Painting exterior walls with facade paint",
+          "hero": true
+        },
+        {
+          "position_number": "8503",
+          "short_name_de": "Spachteln und Glätten",
+          "short_name_en": "Perform plastering",
+          "unit": "m²",
+          "description_de": "Spachteln und Glätten von Wand- und Deckenflächen",
+          "description_en": "Filling and smoothing wall and ceiling surfaces",
+          "hero": false
+        }
+      ]
+    },
+    {
+      "code": "9000",
+      "name_de": "Dacharbeiten",
+      "name_en": "Roofing",
+      "positions": [
+        {
+          "position_number": "9001",
+          "short_name_de": "Dach reparieren",
+          "short_name_en": "Repair roof",
+          "unit": "m²",
+          "description_de": "Reparatur von beschädigten Dachflächen",
+          "description_en": "Repair of damaged roof surfaces",
+          "hero": true
+        },
+        {
+          "position_number": "9002",
+          "short_name_de": "Dachrinne reinigen",
+          "short_name_en": "Clean gutters",
+          "unit": "lfm",
+          "description_de": "Reinigung der Dachrinne von Laub und Schmutz",
+          "description_en": "Cleaning gutters from leaves and debris",
+          "hero": false
+        },
+        {
+          "position_number": "9003",
+          "short_name_de": "Dachdämmung einbauen",
+          "short_name_en": "Install roof insulation",
+          "unit": "m²",
+          "description_de": "Einbau von Wärmedämmung im Dachbereich",
+          "description_en": "Installation of thermal insulation in roof area",
+          "hero": true
+        }
+      ]
+    }
+  ]
+}

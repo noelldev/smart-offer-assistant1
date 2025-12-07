@@ -1,0 +1,13 @@
+{
+  "customer": {
+    "name": "Max Mustermann",
+    "company": "Mustermann GmbH",
+    "phone": "+49 123 456789",
+    "email": "max@mustermann.de",
+    "address": "Musterstraße 123, 12345 Berlin"
+  },
+  "description": "We have water damage on the bathroom ceiling. The paint is peeling and there might be a leak in the roof above. We need someone to check and repair both the roof and repaint the ceiling.",
+  "site": {
+    "difficultAccess": true
+  }
+}
